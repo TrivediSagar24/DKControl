@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		041495B3259CA29C00988F32 /* DKControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 041495B1259CA29C00988F32 /* DKControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		041495BA259CA2CB00988F32 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041495B9259CA2CB00988F32 /* Service.swift */; };
-		0448CBC5259CBA7B00C18967 /* FleetAlmostVC1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0448CBC4259CBA7B00C18967 /* FleetAlmostVC1.swift */; };
-		0448CBC7259CBAF500C18967 /* FleetAppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0448CBC6259CBAF500C18967 /* FleetAppConstants.swift */; };
-		04C6D804259DA56000AEF8ED /* FleetAlmostVC1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04C6D802259DA56000AEF8ED /* FleetAlmostVC1.xib */; };
-		04C6D805259DA56000AEF8ED /* add_queue_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 04C6D803259DA56000AEF8ED /* add_queue_icon.png */; };
+		041495C8259CACBC00988F32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041495C7259CACBC00988F32 /* AppDelegate.swift */; };
+		041495CA259CACBD00988F32 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041495C9259CACBD00988F32 /* SceneDelegate.swift */; };
+		041495CC259CACBD00988F32 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041495CB259CACBD00988F32 /* ViewController.swift */; };
+		041495CF259CACBD00988F32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041495CD259CACBD00988F32 /* Main.storyboard */; };
+		041495D1259CACBE00988F32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 041495D0259CACBE00988F32 /* Assets.xcassets */; };
+		041495D4259CACBE00988F32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041495D2259CACBE00988F32 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		041495AE259CA29C00988F32 /* DKControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DKControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		041495B1259CA29C00988F32 /* DKControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DKControl.h; sourceTree = "<group>"; };
-		041495B2259CA29C00988F32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		041495B9259CA2CB00988F32 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
-		0448CBC4259CBA7B00C18967 /* FleetAlmostVC1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FleetAlmostVC1.swift; sourceTree = "<group>"; };
-		0448CBC6259CBAF500C18967 /* FleetAppConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FleetAppConstants.swift; sourceTree = "<group>"; };
-		04C6D802259DA56000AEF8ED /* FleetAlmostVC1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FleetAlmostVC1.xib; path = Resources/FleetAlmostVC1.xib; sourceTree = "<group>"; };
-		04C6D803259DA56000AEF8ED /* add_queue_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = add_queue_icon.png; path = Resources/add_queue_icon.png; sourceTree = "<group>"; };
+		041495C4259CACBC00988F32 /* ExmpleDKControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExmpleDKControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		041495C7259CACBC00988F32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		041495C9259CACBD00988F32 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		041495CB259CACBD00988F32 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		041495CE259CACBD00988F32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		041495D0259CACBE00988F32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		041495D3259CACBE00988F32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		041495D5259CACBE00988F32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		041495AB259CA29C00988F32 /* Frameworks */ = {
+		041495C1259CACBC00988F32 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,99 +37,71 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		041495A4259CA29C00988F32 = {
+		041495BB259CACBC00988F32 = {
 			isa = PBXGroup;
 			children = (
-				041495B0259CA29C00988F32 /* DKControl */,
-				041495AF259CA29C00988F32 /* Products */,
-				044E4713259D04C600D16032 /* Frameworks */,
+				041495C6259CACBC00988F32 /* ExmpleDKControl */,
+				041495C5259CACBC00988F32 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		041495AF259CA29C00988F32 /* Products */ = {
+		041495C5259CACBC00988F32 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				041495AE259CA29C00988F32 /* DKControl.framework */,
+				041495C4259CACBC00988F32 /* ExmpleDKControl.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		041495B0259CA29C00988F32 /* DKControl */ = {
+		041495C6259CACBC00988F32 /* ExmpleDKControl */ = {
 			isa = PBXGroup;
 			children = (
-				04C6D801259DA3BB00AEF8ED /* Resources */,
-				041495B1259CA29C00988F32 /* DKControl.h */,
-				041495B2259CA29C00988F32 /* Info.plist */,
-				0448CBC6259CBAF500C18967 /* FleetAppConstants.swift */,
-				0448CBC4259CBA7B00C18967 /* FleetAlmostVC1.swift */,
-				041495B9259CA2CB00988F32 /* Service.swift */,
+				041495C7259CACBC00988F32 /* AppDelegate.swift */,
+				041495C9259CACBD00988F32 /* SceneDelegate.swift */,
+				041495CB259CACBD00988F32 /* ViewController.swift */,
+				041495CD259CACBD00988F32 /* Main.storyboard */,
+				041495D0259CACBE00988F32 /* Assets.xcassets */,
+				041495D2259CACBE00988F32 /* LaunchScreen.storyboard */,
+				041495D5259CACBE00988F32 /* Info.plist */,
 			);
-			path = DKControl;
-			sourceTree = "<group>";
-		};
-		044E4713259D04C600D16032 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		04C6D801259DA3BB00AEF8ED /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				04C6D803259DA56000AEF8ED /* add_queue_icon.png */,
-				04C6D802259DA56000AEF8ED /* FleetAlmostVC1.xib */,
-			);
-			name = Resources;
+			path = ExmpleDKControl;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
-/* Begin PBXHeadersBuildPhase section */
-		041495A9259CA29C00988F32 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				041495B3259CA29C00988F32 /* DKControl.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
 /* Begin PBXNativeTarget section */
-		041495AD259CA29C00988F32 /* DKControl */ = {
+		041495C3259CACBC00988F32 /* ExmpleDKControl */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 041495B6259CA29C00988F32 /* Build configuration list for PBXNativeTarget "DKControl" */;
+			buildConfigurationList = 041495D8259CACBE00988F32 /* Build configuration list for PBXNativeTarget "ExmpleDKControl" */;
 			buildPhases = (
-				041495A9259CA29C00988F32 /* Headers */,
-				041495AA259CA29C00988F32 /* Sources */,
-				041495AB259CA29C00988F32 /* Frameworks */,
-				041495AC259CA29C00988F32 /* Resources */,
+				041495C0259CACBC00988F32 /* Sources */,
+				041495C1259CACBC00988F32 /* Frameworks */,
+				041495C2259CACBC00988F32 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = DKControl;
-			productName = DKControl;
-			productReference = 041495AE259CA29C00988F32 /* DKControl.framework */;
-			productType = "com.apple.product-type.framework";
+			name = ExmpleDKControl;
+			productName = ExmpleDKControl;
+			productReference = 041495C4259CACBC00988F32 /* ExmpleDKControl.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		041495A5259CA29C00988F32 /* Project object */ = {
+		041495BC259CACBC00988F32 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1200;
 				LastUpgradeCheck = 1200;
 				TargetAttributes = {
-					041495AD259CA29C00988F32 = {
+					041495C3259CACBC00988F32 = {
 						CreatedOnToolsVersion = 12.0;
-						LastSwiftMigration = 1200;
 					};
 				};
 			};
-			buildConfigurationList = 041495A8259CA29C00988F32 /* Build configuration list for PBXProject "DKControl" */;
+			buildConfigurationList = 041495BF259CACBC00988F32 /* Build configuration list for PBXProject "ExmpleDKControl" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -137,43 +109,63 @@
 				en,
 				Base,
 			);
-			mainGroup = 041495A4259CA29C00988F32;
-			productRefGroup = 041495AF259CA29C00988F32 /* Products */;
+			mainGroup = 041495BB259CACBC00988F32;
+			productRefGroup = 041495C5259CACBC00988F32 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				041495AD259CA29C00988F32 /* DKControl */,
+				041495C3259CACBC00988F32 /* ExmpleDKControl */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		041495AC259CA29C00988F32 /* Resources */ = {
+		041495C2259CACBC00988F32 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04C6D805259DA56000AEF8ED /* add_queue_icon.png in Resources */,
-				04C6D804259DA56000AEF8ED /* FleetAlmostVC1.xib in Resources */,
+				041495D4259CACBE00988F32 /* LaunchScreen.storyboard in Resources */,
+				041495D1259CACBE00988F32 /* Assets.xcassets in Resources */,
+				041495CF259CACBD00988F32 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		041495AA259CA29C00988F32 /* Sources */ = {
+		041495C0259CACBC00988F32 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0448CBC7259CBAF500C18967 /* FleetAppConstants.swift in Sources */,
-				041495BA259CA2CB00988F32 /* Service.swift in Sources */,
-				0448CBC5259CBA7B00C18967 /* FleetAlmostVC1.swift in Sources */,
+				041495CC259CACBD00988F32 /* ViewController.swift in Sources */,
+				041495C8259CACBC00988F32 /* AppDelegate.swift in Sources */,
+				041495CA259CACBD00988F32 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		041495CD259CACBD00988F32 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				041495CE259CACBD00988F32 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		041495D2259CACBE00988F32 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				041495D3259CACBE00988F32 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		041495B4259CA29C00988F32 /* Debug */ = {
+		041495D6259CACBE00988F32 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -207,7 +199,6 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -232,12 +223,10 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		041495B5259CA29C00988F32 /* Release */ = {
+		041495D7259CACBE00988F32 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -271,7 +260,6 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -290,55 +278,40 @@
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		041495B7259CA29C00988F32 /* Debug */ = {
+		041495D9259CACBE00988F32 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = DKControl/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				INFOPLIST_FILE = ExmpleDKControl/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.shree.DKControl;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shree.ExmpleDKControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		041495B8259CA29C00988F32 /* Release */ = {
+		041495DA259CACBE00988F32 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = DKControl/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				INFOPLIST_FILE = ExmpleDKControl/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.shree.DKControl;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shree.ExmpleDKControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -347,25 +320,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		041495A8259CA29C00988F32 /* Build configuration list for PBXProject "DKControl" */ = {
+		041495BF259CACBC00988F32 /* Build configuration list for PBXProject "ExmpleDKControl" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				041495B4259CA29C00988F32 /* Debug */,
-				041495B5259CA29C00988F32 /* Release */,
+				041495D6259CACBE00988F32 /* Debug */,
+				041495D7259CACBE00988F32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		041495B6259CA29C00988F32 /* Build configuration list for PBXNativeTarget "DKControl" */ = {
+		041495D8259CACBE00988F32 /* Build configuration list for PBXNativeTarget "ExmpleDKControl" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				041495B7259CA29C00988F32 /* Debug */,
-				041495B8259CA29C00988F32 /* Release */,
+				041495D9259CACBE00988F32 /* Debug */,
+				041495DA259CACBE00988F32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 041495A5259CA29C00988F32 /* Project object */;
+	rootObject = 041495BC259CACBC00988F32 /* Project object */;
 }
